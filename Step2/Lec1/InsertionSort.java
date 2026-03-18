@@ -6,7 +6,7 @@ public class InsertionSort {
     public static void insertionSort(int[] arr) {
         // n-1 , till last element
         
-        for(int i = 0 ; i < arr.length ; i++) {
+        for(int i = 0 ; i < arr.length; i++) {
            
             int j = i ;
         // starts changing from j position to 0 
