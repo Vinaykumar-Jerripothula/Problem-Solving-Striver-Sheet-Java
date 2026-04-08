@@ -4,10 +4,12 @@ public class ArmstrongNumber {
 
     public static void armstrongNumberOrNot(int n )
     {
+
         int lastdigit = 0  , original = n  , sum = 0 ;
+        int dc = (int )Math.log10(n)+1;
         while(n > 0) {
             lastdigit = n % 10;
-            sum += (lastdigit*lastdigit*lastdigit);
+            sum += (int) Math.pow(lastdigit, dc);
             n = n /10;
         }
         if(original == sum) {
