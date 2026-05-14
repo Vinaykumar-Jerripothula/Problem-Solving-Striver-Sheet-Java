@@ -1,4 +1,4 @@
-package Step2.Lec1;
+
 import java.util.Scanner;
 public class SelectionSort {
     public static void selectionSort(int[] arr) {
