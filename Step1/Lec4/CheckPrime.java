@@ -1,3 +1,5 @@
+package Step1.Lec4;
+
 import java.util.Scanner;
 
 public class CheckPrime {
