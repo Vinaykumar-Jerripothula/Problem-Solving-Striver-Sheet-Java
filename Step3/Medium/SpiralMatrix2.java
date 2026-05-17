@@ -11,22 +11,28 @@ class SpiralMatrix2 {
         int top = 0 , bottom = matrix.length-1;
 
         while(top <= bottom && left <= right) {
-
+            
+            // Print Left to right
             for(int i=left;i<=right;i++) {
                 matrix[top][i] = cnt++;
             }
             top++;
 
+            // Print top to bottom
             for(int i=top;i<=bottom;i++) {
                 matrix[i][right] = cnt++;
             }
             right--;
+            
+            // Print Right to left
             if(top <= bottom) {
                 for(int i=right ; i >= left ; i--) {
                     matrix[bottom][i] = cnt++;
                 }
                 bottom--;
             }
+
+            // Print bottom to Top
             if(left <= right) {
                 for(int i=bottom; i>=top;i--) {
                     matrix[i][left] = cnt++;
