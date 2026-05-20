@@ -1,3 +1,5 @@
+
+package Step3.Medium;
 import java.util.Scanner;
 
 class SpiralMatrix2 {
