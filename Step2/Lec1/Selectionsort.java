@@ -1,3 +1,4 @@
+package step2.lec1;
 
 public class SelectionSort {
     public static void selectionSort(int[] arr) {

@@ -1,4 +1,4 @@
-package Step3.Hard;
+package step3.hard;
 
 public class FourSum {
     

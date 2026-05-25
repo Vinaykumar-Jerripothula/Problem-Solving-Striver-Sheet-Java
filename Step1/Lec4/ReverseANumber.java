@@ -1,4 +1,3 @@
-package Step1.Lec4;
 import java.util.Scanner;
 public class ReverseANumber {
     public static int reverseANumber(int number)

@@ -1,5 +1,5 @@
 
-package Step2.Lec2;
+package step2.lec2;
 
 import java.util.Arrays;
 

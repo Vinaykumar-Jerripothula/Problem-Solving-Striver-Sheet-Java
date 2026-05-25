@@ -1,5 +1,4 @@
 
-package Step3.Medium;
 import java.util.ArrayList;
 
 public class CountInversions {

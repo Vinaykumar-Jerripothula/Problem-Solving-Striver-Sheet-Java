@@ -1,5 +1,5 @@
 
-package Step3.Hard;
+package step3.hard;
 
 class MaximumProductSubarray {
     public static int maximumProductSubarray(int[] arr) {

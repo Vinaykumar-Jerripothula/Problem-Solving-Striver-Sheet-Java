@@ -1,5 +1,5 @@
 
-package Step3.Medium;
+package step3.medium;
 import java.util.Arrays;
 
 public class NextPermutation {

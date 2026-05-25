@@ -1,4 +1,4 @@
-package Techniques.PrefixAndSuffix;
+package techniques.prefixAndSuffix;
 
 public class PrefixSum {
     public static void main(String[] args) {

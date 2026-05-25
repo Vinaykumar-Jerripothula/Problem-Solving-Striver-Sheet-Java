@@ -1,8 +1,8 @@
-    package Step1.Lec1;
+    package step1.lec1;
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
-/* ================================================================== */
+    /* ================================================================== */
 
     public class EssentialsInaLanguage {
 

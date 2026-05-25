@@ -1,4 +1,4 @@
-package Step5.BSoN1D;
+package step5.bSoN1D;
 
 public class FirstLastOccurance {
 

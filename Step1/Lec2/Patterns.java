@@ -1,4 +1,4 @@
-package Step1.Lec2;
+package step1.lec2;
 
 
 import java.util.Scanner;

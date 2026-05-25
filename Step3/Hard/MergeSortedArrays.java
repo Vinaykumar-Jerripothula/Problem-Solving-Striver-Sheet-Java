@@ -1,5 +1,5 @@
 
-package Step3.Hard;
+package step3.hard;
 
 class MergeSortedArrays {
     public static void bruteForce(int[] arr1 , int[] arr2) {
