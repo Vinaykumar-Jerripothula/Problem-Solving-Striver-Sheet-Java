@@ -1,8 +1,7 @@
 
-package step3.medium;
-import java.util.Arrays;
+    import java.util.Arrays;
 
-public class NextPermutation {
+    public class NextPermutation {
 
     public static int[] nextPermutation(int[] arr) {
         int index = -1;

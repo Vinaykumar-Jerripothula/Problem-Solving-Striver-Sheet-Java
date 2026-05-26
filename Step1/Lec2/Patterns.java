@@ -1,4 +1,3 @@
-package step1.lec2;
 
 
 import java.util.Scanner;
@@ -254,7 +253,46 @@ public class Patterns {
 
         }
     }
-
+    public static void pattern11() {
+        
+        int cnt = 1;
+        for(int i=0;i<5;i++) {
+            for(int j=0;j<=i;j++) {
+                System.out.print(cnt++ + " ");
+            }
+            System.out.println();
+        }
+    }
+    public static void pattern12() {
+        char ch = 65;
+        for(int i=0;i<5;i++) {
+            for(int j=0;j<=i;j++) {
+                System.out.print(ch++ + " ");
+            }
+            System.out.println();
+            ch = 65;
+        }
+    }
+    public static void pattern13() {
+        char ch = 65;
+        for(int i=5;i>0;i--) {
+            for(int j=0;j<i;j++) {
+                System.out.print(ch++ + " ");
+            }
+            System.out.println();
+            ch = 65;
+        }
+    }
+    public static void pattern14() {
+        char ch = 65;
+        for(int i=0;i<5;i++) {
+            for(int j=0;j<=i;j++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println();
+            ch++;
+        }
+    }
     public static void main(String[] args) 
     {
 
@@ -373,8 +411,44 @@ public class Patterns {
 
 
         */
-       pattern10();
+       //pattern10();
         
+        /* 
+            1
+            2 3
+            4 5 6 
+            7 8 9 10 
+            11 12 13 14 15
+         */
+        // pattern11();
+
+        /*
+            A
+            A B
+            A B C 
+            A B C D
+            A B C D E 
+         */
+        // pattern12();
+
+        /* 
+            A B C D E 
+            A B C D
+            A B C 
+            A B 
+            A
+         */
+        // pattern13();
+
+        /* 
+            A
+            B B 
+            C C C 
+            D D D D 
+            E E E E E
+         */
+        pattern14();
+
     }
 
     
