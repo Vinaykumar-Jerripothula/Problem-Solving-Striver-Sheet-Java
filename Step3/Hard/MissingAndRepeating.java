@@ -38,10 +38,10 @@ public class MissingAndRepeating {
         int[] arr = {1,1,3,4,5,6};
         
         // Brute 
-        //usingCount(arr);
+        // usingCount(arr);
         
         // Better 
-        usingHashing(arr);
+        // usingHashing(arr);
 
         // Optimal 1 using Math (Easy)
         

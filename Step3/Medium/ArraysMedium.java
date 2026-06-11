@@ -98,6 +98,68 @@
 
     /* 3.Majority Element - 1 */
 
+    // import java.util.HashMap;
+
+    // class ArraysMedium {
+        
+    //     public static void bruteForceSolution() {
+    //         int[] a = {2,2,1,1,1,2,2}; 
+    //         int min = a.length/2;
+    //         int cnt=0;
+    //         for(int i=0;i<a.length;i++) {
+    //             cnt=0;
+    //             for(int j=0;j<a.length;j++) {
+    //                 if(a[j] == a[i]) cnt++;
+    //             }
+    //             if(cnt > min) {
+    //                 System.out.print("Majority Element : " + a[i]);
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     public static void betterSolution() {
+    //         int[] a = {2,2,1,1,1,2,2};
+    //         int min = a.length/2;
+    //         HashMap<Integer,Integer> map = new HashMap<>();
+    //         for(int i : a) map.put(i , map.getOrDefault(i,0)+1);
+    //         for(int i : a) {
+    //             if(map.get(i) > min) {
+    //                 System.out.print("Majority Element : " + i);
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     public static void optimalSolution() {
+    //         int[] a = {2,2,1,1,1,2,2};
+    //         int cnt=0;
+    //         int ele=0;
+    //         for(int i=0;i<a.length;i++) {
+    //             if(cnt == 0) {
+    //                 cnt = 1;
+    //                 ele = a[i];
+    //             }
+    //             else if(a[i] == ele) cnt++;
+    //             else cnt--;
+    //         }
+            
+    //         // For Confirmation Purpose we need to Check wether the
+    //         // element appears >n/2 times or not
+
+    //         int cnt1=0;
+    //         for(int i : a) {
+    //             if(i == ele) cnt1++;
+    //         }
+    //         if(cnt1 > a.length/2) System.out.print("Majority Element : " + ele);
+    //     }
+    //     public static void main(String[] args) {
+            
+    //         // bruteForceSolution();
+            
+    //         // betterSolution();
+
+    //         // optimalSolution();
+    //     }
+    // }
     
     /*
         Time Complexity : 

@@ -166,7 +166,7 @@
     //         // Brute Force Approach
     //         // bruteForceSolution();
 
-    //         // Better Apporach 
+    //         // Better Approach 
     //         betterSolution();
 
     //         // Optimal Approach
@@ -174,6 +174,90 @@
     //     }
     // }
 
+
+    /*
+        Time Complexity : 
+        Space Complexity :  
+    */
+
+
+    /* ============================================================= */
+
+    /* 4 . Longest Repeating Character Replacement */
+    
+    // class TwoPointersPlayList {
+    //     public static void bruteForceSolution() {
+    //         String s = "AABABBA";
+    //         int k=1;
+    //         int maxLen=0;
+    //         for(int i=0;i<s.length();i++) {
+    //             int[] hash = new int[26];
+    //             int maxf = 0;
+    //             int changes = 0;
+    //             for(int j=i;j<s.length();j++) {
+    //                 hash[s.charAt(j) - 'A']++;
+    //                 maxf = Math.max(maxf , hash[s.charAt(j) - 'A']);
+    //                 changes = (j-i+1) - maxf;
+    //                 if(changes <= k) maxLen = Math.max(maxLen , j-i+1);
+    //                 else break;
+    //             }
+    //         }
+    //         System.out.print("Longest Substring is : " + maxLen);
+    //     }
+    //     public static void betterSolution() {
+    //         String s = "AABABBA";
+    //         int k=1;
+    //         int l=0;
+    //         int r=0;
+    //         int maxLen=0;
+    //         int maxf=0;
+    //         int[] hash = new int[26];
+    //         while(r < s.length()) {
+    //             hash[s.charAt(r) - 'A']++;
+    //             maxf = Math.max(maxf , hash[s.charAt(r) - 'A']);
+    //             while((r-l+1 - maxf) > k) {
+    //                 hash[s.charAt(l)- 'A']--;
+    //                 maxf=0;
+    //                 for(int i=0;i<26;i++) {
+    //                     maxf = Math.max(maxf , hash[i]);
+    //                 }
+    //                 l++;
+    //             }
+    //             if((r-l+1 - maxf) <= k) maxLen = Math.max(maxLen , r-l+1);
+    //             r++;                
+    //         }
+    //         System.out.print("Longest Substring is : " + maxLen);
+    //     }
+    //     public static void optimalSolution() {
+    //         String s = "AABABBA";
+    //         int k=1;
+    //         int l=0;
+    //         int r=0;
+    //         int maxLen=0;
+    //         int maxf=0;
+    //         int[] hash = new int[26];
+    //         while(r  < s.length()) {
+    //             hash[s.charAt(r) - 'A']++;
+    //             maxf = Math.max(maxf , hash[s.charAt(r) - 'A']);
+    //             if((r-l+1 - maxf) > k) {
+    //                 hash[s.charAt(l) - 'A']--;
+    //                 l++;
+    //             }
+    //             if((r-l+1 - maxf) <= k) maxLen = Math.max(maxLen , r-l+1);
+    //             r++;
+    //         }
+    //         System.out.print("Longest Substring : " + maxLen);
+    //     }
+    //     public static void main(String[] args) {
+
+            
+    //         // bruteForceSolution();
+
+    //         //betterSolution();
+        
+    //         optimalSolution();
+    //     }
+    // }
 
     /*
         Time Complexity : 
